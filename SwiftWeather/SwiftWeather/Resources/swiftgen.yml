@@ -1,0 +1,23 @@
+output_dir: ./
+
+# Storyboards
+ib:
+  inputs: ../../SwiftWeather/
+  outputs:
+  - templateName: scenes-swift4
+    output: ../Constants/Storyboards.swift
+
+# Images
+xcassets:
+  inputs:
+    - ./Assets.xcassets
+  outputs:
+  - templateName: swift4
+    output: ../Constants/Images.swift
+
+# Colors
+colors:
+  inputs: ../Constants/colors.xml
+  outputs:
+    templateName: swift4
+    output: ../Constants/Colors.swift

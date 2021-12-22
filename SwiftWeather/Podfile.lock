@@ -1,0 +1,32 @@
+PODS:
+  - ReachabilitySwift (5.0.0)
+  - Reusable (4.1.1):
+    - Reusable/Storyboard (= 4.1.1)
+    - Reusable/View (= 4.1.1)
+  - Reusable/Storyboard (4.1.1)
+  - Reusable/View (4.1.1)
+  - RxSwift (6.2.0)
+  - SwiftyUserDefaults (5.3.0)
+
+DEPENDENCIES:
+  - ReachabilitySwift
+  - Reusable
+  - RxSwift
+  - SwiftyUserDefaults
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ReachabilitySwift
+    - Reusable
+    - RxSwift
+    - SwiftyUserDefaults
+
+SPEC CHECKSUMS:
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  Reusable: 53a9acf5c536f229b31b5865782414b508252ddb
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+  SwiftyUserDefaults: 63f80248cf5bfb3458825d9a78f2eb7e1293a040
+
+PODFILE CHECKSUM: 3dfec81cf8ab2313987dd7d01b00e5ad138c039c
+
+COCOAPODS: 1.10.1

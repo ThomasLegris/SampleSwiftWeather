@@ -1,0 +1,17 @@
+#
+#  Copyright (C) 2020 Thomas LEGRIS.
+#
+
+source 'https://github.com/CocoaPods/Specs.git'
+workspace './SwiftWeather.xcworkspace'
+project './SwiftWeather.xcodeproj'
+
+platform :ios, '13.0'
+
+target 'SwiftWeather' do
+    use_frameworks!
+    pod 'ReachabilitySwift'
+    pod 'Reusable'
+    pod 'SwiftyUserDefaults'
+    pod 'RxSwift'
+end
